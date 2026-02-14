@@ -176,6 +176,7 @@ main {
 .features .panel {
   text-align: center;
   font-weight: 600;
+  min-height: 88px;
 }
 
 .steps {

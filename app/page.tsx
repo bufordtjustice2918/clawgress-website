@@ -22,18 +22,18 @@ export default function Home() {
             <p className="eyebrow">Enterprise open source</p>
             <h1>Agentic firewalling that keeps autonomy safe.</h1>
             <p className="subhead">
-              Clawgress is a purpose‑built network control plane for AI agents. It enforces DNS
-              egress, policy‑driven allowlists, and observability so autonomous systems can run
-              safely in production.
+              Clawgress is a purpose‑built network control plane for AI agents. It delivers DNS +
+              egress enforcement, policy orchestration, and enterprise‑grade observability so
+              autonomous systems can run safely in production.
             </p>
             <div className="hero-actions">
-              <a className="cta" href="#get-started">Launch MVPv1</a>
-              <a className="ghost" href="#features">View MVPv1 Features</a>
+              <a className="cta" href="#get-started">Get Clawgress</a>
+              <a className="ghost" href="#features">View Features</a>
             </div>
             <div className="hero-meta">
               <span>ISO / OVA / QCOW2</span>
-              <span>VyOS‑based appliance</span>
-              <span>Policy‑first DNS egress</span>
+              <span>Policy + API + CLI</span>
+              <span>LTS support available</span>
             </div>
           </div>
           <div className="hero-card">
@@ -76,14 +76,17 @@ export default function Home() {
 
       <section id="features" className="section">
         <div className="section-title">Features</div>
-        <h2>What ships in MVPv1.</h2>
+        <h2>Enterprise‑ready, agent‑focused security.</h2>
         <div className="grid features">
-          <div className="panel">VyOS‑based hardened appliance</div>
-          <div className="panel">Bind9 RPZ enforcement</div>
-          <div className="panel">Forced DNS + egress firewall (53/80/443)</div>
-          <div className="panel">Policy engine + CLI/API</div>
-          <div className="panel">Logging + deny reason mapping</div>
-          <div className="panel">ISO / OVA / QCOW2 artifacts</div>
+          <div className="panel">Policy‑first DNS + egress enforcement</div>
+          <div className="panel">Proxy/SNI allowlist mode</div>
+          <div className="panel">Per‑agent policy scopes + simulation</div>
+          <div className="panel">Observability + deny reason mapping</div>
+          <div className="panel">SIEM‑ready logging + audit exports</div>
+          <div className="panel">ISO / OVA / QCOW2 releases</div>
+          <div className="panel">Policy signing + provenance</div>
+          <div className="panel">Time‑boxed access windows</div>
+          <div className="panel">HA + failover ready</div>
         </div>
       </section>
 
@@ -140,19 +143,19 @@ export default function Home() {
 
       <section id="support" className="section">
         <div className="section-title">Support</div>
-        <h2>We ship OSS with enterprise expectations.</h2>
+        <h2>LTS support built for enterprise.</h2>
         <div className="grid">
           <div className="panel">
-            <h3>Documentation</h3>
-            <p>Quickstart, policy schema, and troubleshooting guides.</p>
+            <h3>Silver</h3>
+            <p>Business‑hours support, security updates, and LTS patches.</p>
           </div>
           <div className="panel">
-            <h3>Community</h3>
-            <p>Public roadmap, issues, and transparent progress updates.</p>
+            <h3>Gold</h3>
+            <p>Faster response SLAs, prioritized fixes, and upgrade assistance.</p>
           </div>
           <div className="panel">
-            <h3>Commercial support</h3>
-            <p>Need SLAs or custom policy work? We can help.</p>
+            <h3>Platinum</h3>
+            <p>24/7 response, dedicated escalation, and custom hardening.</p>
           </div>
         </div>
       </section>
