@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       <section id="features" className="section">
-        <div className="section-title">MVPv1 Features</div>
+        <div className="section-title">Features</div>
         <h2>What ships in MVPv1.</h2>
         <div className="grid features">
           <div className="panel">VyOS‑based hardened appliance</div>
@@ -126,6 +126,14 @@ export default function Home() {
           <div>
             <span>3</span>
             <p>Route agent egress through Clawgress.</p>
+          </div>
+        </div>
+        <div className="download">
+          <h3>Download artifacts</h3>
+          <p>Latest release assets (ISO / OVA / QCOW2):</p>
+          <div className="download-links">
+            <a href="https://github.com/bufordtjustice2918/clawgress/releases" target="_blank">Release downloads</a>
+            <a href="https://github.com/bufordtjustice2918/clawgress" target="_blank">Source repo</a>
           </div>
         </div>
       </section>

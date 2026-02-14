@@ -198,6 +198,32 @@ main {
   margin-bottom: 12px;
 }
 
+.download {
+  margin-top: 32px;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.download h3 {
+  margin-bottom: 8px;
+}
+
+.download-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.download-links a {
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
 .contact {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
