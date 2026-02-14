@@ -136,6 +136,47 @@ main {
   white-space: pre-wrap;
 }
 
+.policy-visual {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 20px;
+  position: relative;
+}
+
+.policy-visual .node {
+  background: rgba(107,124,255,0.12);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 12px;
+}
+
+.policy-visual .pulse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  background: var(--accent-2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 18px rgba(22,242,195,0.6);
+}
+
+.policy-json {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  color: #96a5bc;
+  background: rgba(10,15,22,0.6);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  white-space: pre-wrap;
+  opacity: 0.65;
+}
+
 .section {
   padding: 64px 0;
   border-top: 1px solid var(--border);

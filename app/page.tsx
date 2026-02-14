@@ -37,15 +37,21 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-card">
-            <div className="card-title">Clawgress Policy</div>
-            <pre>{`{
+            <div className="card-title">Policy in motion</div>
+            <div className="policy-visual">
+              <div className="pulse" />
+              <div className="node">Agent</div>
+              <div className="node">Clawgress</div>
+              <div className="node">Allowed APIs</div>
+            </div>
+            <div className="policy-json">{
   "version": 1,
   "allow": {
     "domains": ["api.openai.com"],
     "ports": [53, 80, 443]
   },
   "labels": {"api.openai.com": "llm-provider"}
-}`}</pre>
+}</div>
           </div>
         </div>
       </header>
@@ -184,7 +190,7 @@ export default function Home() {
 
       <section id="support" className="section">
         <div className="section-title">Support</div>
-        <h2>LTS support built for enterprise.</h2>
+        <h2>LTS support built for enterprise + agentic AI teams.</h2>
         <div className="grid">
           <div className="panel">
             <h3>Silver</h3>
@@ -192,11 +198,15 @@ export default function Home() {
           </div>
           <div className="panel">
             <h3>Gold</h3>
-            <p>Faster response SLAs, prioritized fixes, and upgrade assistance.</p>
+            <p>Faster response SLAs, prioritized fixes, upgrade assistance.</p>
           </div>
           <div className="panel">
             <h3>Platinum</h3>
-            <p>24/7 response, dedicated escalation, and custom hardening.</p>
+            <p>24/7 response, dedicated escalation, custom hardening.</p>
+          </div>
+          <div className="panel">
+            <h3>Agentic AI Feed</h3>
+            <p>Raw data streams of fixes, CVEs, and policy updates for real‑time agent integration.</p>
           </div>
         </div>
       </section>
