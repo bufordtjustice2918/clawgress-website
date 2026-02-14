@@ -9,7 +9,7 @@ export default function Home() {
           </div>
           <div className="nav-links">
             <a href="#product">Product</a>
-            <a href="#features">MVPv1</a>
+            <a href="#features">Features</a>
             <a href="#agents">Agentic Firewalling</a>
             <a href="#support">Support</a>
             <a href="#contact">Contact</a>
@@ -44,14 +44,14 @@ export default function Home() {
               <div className="node">Clawgress</div>
               <div className="node">Allowed APIs</div>
             </div>
-            <div className="policy-json">{
+            <div className="policy-json">{`{
   "version": 1,
   "allow": {
     "domains": ["api.openai.com"],
     "ports": [53, 80, 443]
   },
   "labels": {"api.openai.com": "llm-provider"}
-}</div>
+}`}</div>
           </div>
         </div>
       </header>
