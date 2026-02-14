@@ -76,17 +76,58 @@ export default function Home() {
 
       <section id="features" className="section">
         <div className="section-title">Features</div>
-        <h2>Enterprise‑ready, agent‑focused security.</h2>
+        <h2>Complete Clawgress capability set.</h2>
         <div className="grid features">
-          <div className="panel">Policy‑first DNS + egress enforcement</div>
+          <div className="panel">VyOS‑based hardened appliance</div>
+          <div className="panel">bind9 RPZ enforcement</div>
+          <div className="panel">Policy engine + CLI/API</div>
+          <div className="panel">Forced DNS + egress firewall (53/80/443)</div>
+          <div className="panel">Logging + deny‑reason mapping</div>
+          <div className="panel">ISO / OVA / QCOW2 artifacts</div>
           <div className="panel">Proxy/SNI allowlist mode</div>
-          <div className="panel">Per‑agent policy scopes + simulation</div>
-          <div className="panel">Observability + deny reason mapping</div>
-          <div className="panel">SIEM‑ready logging + audit exports</div>
-          <div className="panel">ISO / OVA / QCOW2 releases</div>
-          <div className="panel">Policy signing + provenance</div>
-          <div className="panel">Time‑boxed access windows</div>
-          <div className="panel">HA + failover ready</div>
+          <div className="panel">Per‑host policies</div>
+          <div className="panel">Agent telemetry (usage/denies/cache)</div>
+          <div className="panel">mTLS between gateways/agents</div>
+          <div className="panel">Rate limiting / shaping</div>
+          <div className="panel">Policy signing + approval workflow</div>
+          <div className="panel">Alerting + dashboards</div>
+          <div className="panel">Time‑based policy windows</div>
+          <div className="panel">Data exfiltration caps</div>
+          <div className="panel">Orchestration control plane (time‑boxed overrides)</div>
+          <div className="panel">Agent identity attestation</div>
+          <div className="panel">Dynamic tool‑permission broker</div>
+          <div className="panel">Policy simulation + drift detection</div>
+          <div className="panel">Per‑agent behavioral baselines</div>
+          <div className="panel">Capability‑scoped egress policies</div>
+          <div className="panel">Task‑bound egress sessions (auto‑expire)</div>
+          <div className="panel">Agent fleet policy templates</div>
+          <div className="panel">Policy change provenance + explainability</div>
+          <div className="panel">Agent network intent verification</div>
+          <div className="panel">Cross‑agent coordination guardrails</div>
+          <div className="panel">Adaptive egress throttling on anomaly</div>
+          <div className="panel">Multi‑model policy enforcement</div>
+          <div className="panel">Data classification‑aware egress</div>
+          <div className="panel">Human‑in‑the‑loop escalation gates</div>
+          <div className="panel">Federated policy sync (multi‑site)</div>
+          <div className="panel">Compromise response mode (kill‑switch)</div>
+          <div className="panel">API/CLI parity audit + gap workarounds</div>
+          <div className="panel">RBAC + scoped admin roles</div>
+          <div className="panel">IdP integration (SAML/OIDC)</div>
+          <div className="panel">API token lifecycle (expiry/rotation)</div>
+          <div className="panel">Centralized logging (syslog + SIEM JSON)</div>
+          <div className="panel">Audit report generator</div>
+          <div className="panel">Immutable audit log export (WORM/S3/GCS)</div>
+          <div className="panel">Alerting + incident hooks (SIEM/SOAR)</div>
+          <div className="panel">Per‑agent policy inheritance + overrides</div>
+          <div className="panel">Fleet‑aware identity model</div>
+          <div className="panel">Agent attestation + registration flow</div>
+          <div className="panel">Multi‑agent‑on‑VM mapping</div>
+          <div className="panel">HA pair + failover</div>
+          <div className="panel">Config backup/restore snapshots</div>
+          <div className="panel">SIEM connectors (Splunk/Sentinel/QRadar)</div>
+          <div className="panel">Compliance evidence pack (NIST/CIS)</div>
+          <div className="panel">Fed/State hardening guide (STIG/CIS)</div>
+          <div className="panel">FIPS‑ready crypto profile</div>
         </div>
       </section>
 
