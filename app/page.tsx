@@ -10,7 +10,7 @@ export default function Home() {
           <div className="nav-links">
             <a href="#product">Product</a>
             <a href="#features">Features</a>
-            <a href="#agents">Agentic Firewalling</a>
+            <a href="#agents">Agentic Firewall</a>
             <a href="#support">Support</a>
             <a href="#contact">Contact</a>
           </div>
@@ -134,6 +134,8 @@ export default function Home() {
           <div className="panel">Compliance evidence pack (NIST/CIS)</div>
           <div className="panel">Fed/State hardening guide (STIG/CIS)</div>
           <div className="panel">FIPS‑ready crypto profile</div>
+          <div className="panel">Zero‑Trust defaults + continuous verification</div>
+          <div className="panel">JIT access controls (time‑boxed grants)</div>
           <div className="panel">…and more!</div>
         </div>
       </section>
