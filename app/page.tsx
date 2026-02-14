@@ -82,7 +82,7 @@ export default function Home() {
 
       <section id="features" className="section">
         <div className="section-title">Features</div>
-        <h2>Complete Clawgress capability set.</h2>
+        <h2>Clawgress capability set.</h2>
         <div className="grid features">
           <div className="panel">VyOS‑based hardened appliance</div>
           <div className="panel">bind9 RPZ enforcement</div>
@@ -134,6 +134,7 @@ export default function Home() {
           <div className="panel">Compliance evidence pack (NIST/CIS)</div>
           <div className="panel">Fed/State hardening guide (STIG/CIS)</div>
           <div className="panel">FIPS‑ready crypto profile</div>
+          <div className="panel">…and more!</div>
         </div>
       </section>
 
@@ -232,7 +233,12 @@ export default function Home() {
 
       <footer className="footer">
         <div>© 2026 Clawgress. Built for agentic safety.</div>
-        <div>clawgress.io</div>
+        <div className="socials">
+          <a href="https://github.com/bufordtjustice2918/clawgress" target="_blank">GitHub</a>
+          <a href="https://discord.gg/clawd" target="_blank">Discord</a>
+          <a href="https://twitter.com" target="_blank">X</a>
+          <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
       </footer>
     </main>
   );

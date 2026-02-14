@@ -280,6 +280,18 @@ main {
   justify-content: space-between;
   color: var(--muted);
   font-size: 14px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  color: var(--muted);
 }
 
 @media (max-width: 720px) {
