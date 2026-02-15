@@ -13,6 +13,7 @@ export default function Home() {
             <a href="#agents">Agentic Firewall</a>
             <a href="#support">Support</a>
             <a href="#contact">Contact</a>
+            <a href="https://docs.clawgress.io/api" target="_blank">Integrate</a>
             <a href="https://docs.clawgress.io" target="_blank">Docs</a>
           </div>
           <a className="cta" href="#get-started">Get Started</a>
