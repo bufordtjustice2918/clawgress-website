@@ -122,6 +122,36 @@ main {
   font-size: 13px;
 }
 
+.logo-strip {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-strip img {
+  width: 140px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: #0b0f14;
+}
+
+.logo-grid {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0 8px;
+  flex-wrap: wrap;
+}
+
+.logo-grid img {
+  width: 180px;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: #0b0f14;
+}
+
 .hero-card {
   background: var(--bg-soft);
   border: 1px solid var(--border);

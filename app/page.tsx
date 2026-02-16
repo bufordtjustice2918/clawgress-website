@@ -37,6 +37,11 @@ export default function Home() {
               <span>Policy + API + CLI</span>
               <span>LTS support available</span>
             </div>
+            <div className="logo-strip">
+              <img src="/branding/clawgress-logo-1.png" alt="Clawgress logo" />
+              <img src="/branding/clawgress-logo-2.png" alt="Clawgress logo" />
+              <img src="/branding/clawgress-logo-3.png" alt="Clawgress logo" />
+            </div>
           </div>
           <div className="hero-card">
             <div className="card-title">Policy in motion</div>
@@ -85,6 +90,10 @@ export default function Home() {
       <section id="features" className="section">
         <div className="section-title">Features</div>
         <h2>Clawgress capability set.</h2>
+        <div className="logo-grid">
+          <img src="/branding/clawgress-logo-4.png" alt="Clawgress logo" />
+          <img src="/branding/clawgress-logo-5.png" alt="Clawgress logo" />
+        </div>
         <div className="grid features">
           <div className="panel">VyOS‑based hardened appliance</div>
           <div className="panel">bind9 RPZ enforcement</div>
